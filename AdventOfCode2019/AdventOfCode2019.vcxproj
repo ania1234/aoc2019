@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Problem10_1.h" />
     <ClInclude Include="Problem1_1.h" />
     <ClInclude Include="Problem1_2.h" />
     <ClInclude Include="Problem2_1.h" />
@@ -165,6 +166,9 @@
     <ClInclude Include="Problem6_2.h" />
     <ClInclude Include="Problem7_1.h" />
     <ClInclude Include="Problem7_2.h" />
+    <ClInclude Include="Problem8_1.h" />
+    <ClInclude Include="Problem8_2.h" />
+    <ClInclude Include="Problem9_1.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="resource1.h" />
   </ItemGroup>
@@ -176,6 +180,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Problem10_1.cpp" />
     <ClCompile Include="Problem1_1.cpp" />
     <ClCompile Include="Problem1_2.cpp" />
     <ClCompile Include="Problem2_1.cpp" />
@@ -189,6 +194,9 @@
     <ClCompile Include="Problem6_2.cpp" />
     <ClCompile Include="Problem7_1.cpp" />
     <ClCompile Include="Problem7_2.cpp" />
+    <ClCompile Include="Problem8_1.cpp" />
+    <ClCompile Include="Problem8_2.cpp" />
+    <ClCompile Include="Problem9_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AdventOfCode2019.rc" />

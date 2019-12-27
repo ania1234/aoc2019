@@ -16,12 +16,16 @@
 #include "Problem6_2.h"
 #include "Problem7_1.h"
 #include "Problem7_2.h"
+#include "Problem8_1.h"
+#include "Problem8_2.h"
+#include "Problem9_1.h"
+#include "Problem10_1.h"
 
 int main()
 {
     std::cout << "Hello World!\n"; 
-	Problem7_2 myProblem;
-	myProblem.Solve("C:\\Users\\Ania\\Documents\\Problem7_1.txt");
+	Problem10_1 myProblem;
+	myProblem.Solve("C:\\Users\\Ania\\Documents\\Problem10_1.txt");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -4,7 +4,13 @@
 class Amplifier {
 public:
 	std::vector<int> program;
-	int RunProgram(std::vector<int> input, std::vector<int> &data, bool shouldImmediatellyReturnOutput, int &returnCode);
+	int currentInstruction = 0;
+	bool firstRun = true;
+	bool finished = false;
+	int output;
+	int phaseSetting;
+	int RunProgram(int input);
+	int index;
 };
 class Problem7_2
 {
