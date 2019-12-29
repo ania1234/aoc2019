@@ -75,6 +75,12 @@
     <ClInclude Include="Problem10_1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Problem10_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem11_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -132,6 +138,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Problem10_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem10_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem11_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

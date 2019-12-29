@@ -28,7 +28,7 @@ void Problem10_1::Solve(std::string fileName)
 	for (int i = 0; i < heigth; i++) {
 		for (int j = 0; j < width; j++) {
 			if (input[i][j] == '#') {
-				int myConnections = FindConnections(i, j, input);
+				int myConnections = FindConnections(i, j, input).size();
 				if (myConnections > maxConnections) {
 					maxConnections = myConnections;
 					maxI = i;
@@ -42,7 +42,7 @@ void Problem10_1::Solve(std::string fileName)
 	std::cout << "Max J " << maxJ << std::endl;
 }
 
-int Problem10_1::FindConnections(int h, int w, std::vector<std::string> input)
+std::vector<Vector2> Problem10_1::FindConnections(int h, int w, std::vector<std::string> input)
 {
 	int heigth = input.size();
 	int width = input[0].size();
@@ -89,7 +89,7 @@ int Problem10_1::FindConnections(int h, int w, std::vector<std::string> input)
 	std::string outputString;
 	std::printf( "The asteroid at ( %i, %i ) has %i neighbours \n", w, h, neighbours.size());
 
-	return neighbours.size();
+	return neighbours;
 }
 
 int Problem10_1::LargestPrime(int n)
@@ -144,7 +144,7 @@ void Problem10_1::DeleteEverythingInLineOfSight(int i, int j, int h, int w, int 
 {
 	bool found = false;
 	for (auto n : neighbours) {
-		if (n.h == i && n.w == j) {
+		if (n.y == i && n.x == j) {
 			found = true;
 		}
 	}
@@ -187,6 +187,6 @@ int Problem10_1::Sign(int a)
 
 Vector2::Vector2(int h, int w)
 {
-	this->h = h;
-	this->w = w;
+	this->y = h;
+	this->x = w;
 }

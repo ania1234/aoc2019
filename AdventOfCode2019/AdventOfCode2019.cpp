@@ -20,12 +20,13 @@
 #include "Problem8_2.h"
 #include "Problem9_1.h"
 #include "Problem10_1.h"
-
+#include "Problem10_2.h"
+#include "Problem11_1.h"
 int main()
 {
     std::cout << "Hello World!\n"; 
-	Problem10_1 myProblem;
-	myProblem.Solve("C:\\Users\\Ania\\Documents\\Problem10_1.txt");
+	Problem11_1 myProblem;
+	myProblem.Solve("C:\\Users\\Ania\\Documents\\Problem11_1.txt");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

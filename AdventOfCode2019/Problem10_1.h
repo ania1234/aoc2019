@@ -4,9 +4,10 @@
 
 struct Vector2 {
 public:
-	int h;
-	int w;
-	Vector2(int h, int w);
+	int y;
+	int x;
+	int color;
+	Vector2(int y, int x);
 };
 class Problem10_1
 {
@@ -15,10 +16,10 @@ public:
 	~Problem10_1();
 
 	void Solve(std::string fileName);
-	int FindConnections(int i, int j, std::vector<std::string> input);
-	int Sign(int a);
+	static std::vector<Vector2> FindConnections(int i, int j, std::vector<std::string> input);
+	static int Sign(int a);
 	int LargestPrime(int n);
-	int LargestCommonDenominator(int i, int j);
-	void DeleteEverythingInLineOfSight(int i, int j, int h, int w, int height, int width, std::vector<Vector2> &neighbours, std::vector<std::string> &input);
+	static int LargestCommonDenominator(int i, int j);
+	static void DeleteEverythingInLineOfSight(int i, int j, int h, int w, int height, int width, std::vector<Vector2> &neighbours, std::vector<std::string> &input);
 };
 
