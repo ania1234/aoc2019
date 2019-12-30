@@ -129,7 +129,7 @@ int Problem10_1::LargestPrime(int n)
 	return largestPrime;
 }
 
-int Problem10_1::LargestCommonDenominator(int a, int b)
+int Problem10_1::LargestCommonDenominator(long long int a, long long int b)
 {
 	if (a == 0 || b == 0)
 		return 0;

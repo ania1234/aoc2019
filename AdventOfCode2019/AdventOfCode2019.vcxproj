@@ -154,6 +154,8 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Problem10_1.h" />
     <ClInclude Include="Problem10_2.h" />
+    <ClInclude Include="Problem12_1.h" />
+    <ClInclude Include="Problem12_2.h" />
     <ClInclude Include="Problem1_1.h" />
     <ClInclude Include="Problem1_2.h" />
     <ClInclude Include="Problem2_1.h" />
@@ -184,6 +186,8 @@
     </ClCompile>
     <ClCompile Include="Problem10_1.cpp" />
     <ClCompile Include="Problem10_2.cpp" />
+    <ClCompile Include="Problem12_1.cpp" />
+    <ClCompile Include="Problem12_2.cpp" />
     <ClCompile Include="Problem1_1.cpp" />
     <ClCompile Include="Problem1_2.cpp" />
     <ClCompile Include="Problem2_1.cpp" />
