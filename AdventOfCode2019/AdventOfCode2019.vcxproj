@@ -91,10 +91,12 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\Downloads\SFML-2.5.1-windows-vc15-64-bit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\Downloads\SFML-2.5.1-windows-vc15-64-bit\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -106,10 +108,13 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\Downloads\SFML-2.5.1-windows-vc15-64-bit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\Downloads\SFML-2.5.1-windows-vc15-64-bit\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -157,6 +162,10 @@
     <ClInclude Include="Problem12_1.h" />
     <ClInclude Include="Problem12_2.h" />
     <ClInclude Include="Problem13_1.h" />
+    <ClInclude Include="Problem13_2.h" />
+    <ClInclude Include="Problem14_1.h" />
+    <ClInclude Include="Problem14_2.h" />
+    <ClInclude Include="Problem15_1.h" />
     <ClInclude Include="Problem1_1.h" />
     <ClInclude Include="Problem1_2.h" />
     <ClInclude Include="Problem2_1.h" />
@@ -190,6 +199,10 @@
     <ClCompile Include="Problem12_1.cpp" />
     <ClCompile Include="Problem12_2.cpp" />
     <ClCompile Include="Problem13_1.cpp" />
+    <ClCompile Include="Problem13_2.cpp" />
+    <ClCompile Include="Problem14_1.cpp" />
+    <ClCompile Include="Problem14_2.cpp" />
+    <ClCompile Include="Problem15_1.cpp" />
     <ClCompile Include="Problem1_1.cpp" />
     <ClCompile Include="Problem1_2.cpp" />
     <ClCompile Include="Problem2_1.cpp" />

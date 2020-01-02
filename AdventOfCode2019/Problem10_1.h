@@ -8,6 +8,7 @@ public:
 	int x;
 	int color;
 	Vector2(int y, int x);
+	Vector2(int x, int y, int color);
 };
 class Problem10_1
 {

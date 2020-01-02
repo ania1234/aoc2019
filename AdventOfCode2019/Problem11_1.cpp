@@ -178,7 +178,6 @@ std::vector<int64_t> ComputerWithBreaksEnabled::RunProgram(int iterationNumber)
 				arg1 = program[arg1];
 			}
 			else if (arg1Immediate == 2) {
-				std::cout << "arg1Immediate == 2" << std::endl;
 				arg1 = program[relativeBase + arg1];
 			}
 
@@ -195,7 +194,6 @@ std::vector<int64_t> ComputerWithBreaksEnabled::RunProgram(int iterationNumber)
 				currentInstruction = arg2;
 			}
 			else {
-				std::cout << "WTF" << std::endl;
 				currentInstruction += 3;
 			}
 			break;

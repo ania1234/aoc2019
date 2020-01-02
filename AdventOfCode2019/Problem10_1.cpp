@@ -190,3 +190,10 @@ Vector2::Vector2(int h, int w)
 	this->y = h;
 	this->x = w;
 }
+
+Vector2::Vector2(int x, int y, int color)
+{
+	this->x = x;
+	this->y = y;
+	this->color = color;
+}
